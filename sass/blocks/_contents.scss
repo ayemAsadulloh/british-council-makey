@@ -1,0 +1,25 @@
+.main__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box__img {
+    display: block;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: all 0.4s;
+}
+
+.box__img:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.contents__desc {
+    width: 170px;
+}
+
+
+

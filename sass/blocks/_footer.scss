@@ -1,0 +1,28 @@
+.footer {
+    background-color: darkblue;
+}
+
+.footer__item:nth-child(1) {
+    margin-bottom: 10px;
+}
+
+.footer__item {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__main__box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fa-brands {
+    font-size: 29px;
+    color: white;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: white;
+}
